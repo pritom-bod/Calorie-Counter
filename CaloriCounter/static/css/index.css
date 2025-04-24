@@ -1,0 +1,51 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+.table thead {
+    background-color: #198754;
+    color: white;
+}
+
+th {
+    background-color: #d1e7dd;
+}
+
+.table-primary tbody tr:last-child {
+    background-color: #fff3cd !important;
+    font-weight: bold;
+}
+
+.btn-success {
+    font-weight: bold;
+}
+
+.btn-danger {
+    font-weight: bold;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+canvas {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+}

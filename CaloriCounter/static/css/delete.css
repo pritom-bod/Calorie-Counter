@@ -1,0 +1,16 @@
+body {
+    background-color: #e6f4ea;
+    font-family: 'Segoe UI', sans-serif;
+}
+.delete-box {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #198754;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.delete-box h4 {
+    color: #198754;
+}

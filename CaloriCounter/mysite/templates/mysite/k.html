@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <script src="" async defer></script>
+    </body>
+
+    <script>
+
+        var table = document.getElementById('table')
+        var calories=0,fat=0, protine=0, carbs=0
+
+        for(var i=1; i<table.rows.length-1; i++){
+            console.log(table.rows[i].cells[1].innerHTML);
+            carbs += parseFloat(table.rows[i].cells[1].innerHTML);
+            carbs = Math.round(carbs)
+            protine += parseFloat(table.rows[i].cells[2].innerHTML);
+            protine = Math.round(protine)
+            fat += parseFloat(table.rows[i].cells[3].innerHTML);
+            calories += parseFloat(table.rows[i].cells[4].innerHTML);
+        } 
+
+
+        document.getElementById('totalCarbs').innerHTML = carbs;
+        document.getElementById('totalCalories').innerHTML = calories
+        document.getElementById('totalProtine').innerHTML = protine
+        document.getElementById('totalFats').innerHTML = fat
+
+    </script>
+</html>
