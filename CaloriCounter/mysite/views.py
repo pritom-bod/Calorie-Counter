@@ -19,7 +19,7 @@ def index(request):
     else:
         food = Food.objects.all()
 
-    consumed_food = Consume.objects.filter(user=request.user)
+    consumed_food = Consume.objects.all()
     return render(request, 'mysite/index.html', {
         'foods':food,
         'consumed_food':consumed_food,
